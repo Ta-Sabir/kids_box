@@ -57,9 +57,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="hero_container flex items-center justify-center mt-8">
+        <div className="hero_container flex items-center justify-center gap-10 mt-8">
           <img src={img1} alt="img_1" className="w-[140px]" />
-          <img src={img3} alt="img_3" className="w-[200px]" />
+          <img src={img3} alt="img_3" className="w-[130px]" />
         </div>
         <div className="icons">
           <div className="features flex flex-col lg:flex-row items-center justify-center gap-9 my-6">
@@ -104,7 +104,7 @@ const Home = () => {
             واحد بريحة الورد <br />
             واحد بريحة البودر <br />
             <br />
-         عطرين بعلبة وحدة 12  دينار - توصيل مجاني
+            يجون اثنينهم بعلبة وحدة 12 دينار - توصيل مجاني
           </p>
           <img src={img2} alt="img_2" className="m-auto mt-[30px]" />
         </div>
