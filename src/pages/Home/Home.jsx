@@ -35,28 +35,31 @@ const Home = () => {
 
         <div className="flex flex-col items-center justify-center my-10 leading-10">
           <h2 className="text-2xl font-bold">عرض خاص !</h2>
-          <p>عطرين ب١٢ دينار - توصيل مجاني  <br />اطلبي الحين</p>
+          <p className="text-center">
+            عطرين ب١٢ دينار - توصيل مجاني
+            <br /> اطلبي الحين
+          </p>
           <div className="relative z-10 gap-8 mt-2 flex items-center">
             <Link
               target="_blank"
               data-state="closed"
-              to="https://wa.me/96560307755"
+              to="https://www.instagram.com/kidsboxperfume/"
             >
               <img src={whast} alt="whast" className="w-[60px]" />
             </Link>
             <Link
               target="_blank"
               data-state="closed"
-              to="https://www.instagram.com/kidsboxperfume/"
+              to="https://wa.me/96560307755"
             >
               <img src={instgram} alt="instgram" className="w-[60px]" />
             </Link>
           </div>
         </div>
 
-        <div className="hero_container flex flex-col lg:flex-row items-center justify-center mt-8">
-          <img src={img1} alt="img_1" className="w-[400px]" />
-          <img src={img3} alt="img_3" />
+        <div className="hero_container flex items-center justify-center mt-8">
+          <img src={img1} alt="img_1" className="w-[100x]" />
+          <img src={img3} alt="img_3" className="w-[200px]" />
         </div>
         <div className="icons">
           <div className="features flex flex-col lg:flex-row items-center justify-center gap-9 my-6">
@@ -156,7 +159,7 @@ const Home = () => {
             <h2 className="text-2xl font-bold">اشترِ الآن واستمتع بعرض خاص!</h2>
             <p>
               عطر كيدز بوكس متوفر الآن بسعر 12 دينار فقط ! لا تفوتوا الفرصة
-              واجعلوا أطفالكم يشعرون بالتميز مع  هذه العطور الفريدة.
+              واجعلوا أطفالكم يشعرون بالتميز مع هذا العطر الفريد.
             </p>
           </div>
           <div className="flex justify-center mt-8">
@@ -182,9 +185,9 @@ const Home = () => {
               <p className="text-[var(--third-color)] text-[16px] font-medium leading-[40.45px]">
                 <span className="font-semibold">
                   {" "}
-                 - الكويت
+                  العطر وايد حلو ،شريته لبناتي ريحته حلوه وثابته - الكويت
                 </span>
-                - مريم / الكويت
+                - مريم الكويت
               </p>
 
               <figure>
@@ -198,7 +201,7 @@ const Home = () => {
             <div className="testimonials-box relative h-[220px] bg-[#fff] shadow-lg p-[24px] rounded-[16px] cursor-pointer">
               <p className="text-[var(--third-color)] text-[16px] font-medium leading-[40.45px]">
                 <span className="font-semibold">انصحكم فيه عطر جميل</span>- ملاك
-                / الكويت
+                الكويت
               </p>
 
               <figure>
@@ -214,7 +217,7 @@ const Home = () => {
                 <span className="font-semibold">
                   اجمل عطر صراحة للكبار والصغار راح اطلبه بس يخلص الي عندي 
                 </span>
-                - دانه / الكويت
+                - دانه الكويت
               </p>
 
               <figure>
