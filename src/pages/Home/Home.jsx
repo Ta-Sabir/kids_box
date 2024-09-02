@@ -5,7 +5,8 @@ import img3 from "../../assets/img_3.png";
 import video from "../../assets/video.mp4";
 import video2 from "../../assets/video2.mp4";
 import star from "../../assets/star.png";
-
+import whast from "../../assets/whast.png";
+import instgram from "../../assets/instgram.png";
 import { FaShieldAlt, FaTag, FaGift, FaChild } from "react-icons/fa";
 import { GiSyringe } from "react-icons/gi";
 import { Link } from "react-router-dom";
@@ -13,9 +14,9 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Home = () => {
   return (
-        <section id="home" className="mb-[15px]">
+    <section id="home" className="mb-[15px]">
       <div className="bg-[var(--main-color)] text-white text-center text-lg p-2">
-        عطر مميز بسعر رائع متوفر دفع عند الاستلام
+        عطر مميز بسعر رائع لا يطوفكم 😎
       </div>
       <div className="container">
         <div className="logo flex items-center justify-center mt-6">
@@ -31,8 +32,31 @@ const Home = () => {
           {" "}
           الرفيق المثالي للأطفال برائحة منعشة وممتعة
         </span>
-        <div className="hero_container flex items-center justify-center mt-8">
-          <img src={img1} alt="img_1" className="w-[500px]" />
+
+        <div className="flex flex-col items-center justify-center my-10 leading-10">
+          <h2 className="text-2xl font-bold">عرض خاص !</h2>
+          <p>عطرين ب١٢ دينار - توصيل مجاني اطلبي الحين</p>
+          <div className="relative z-10 gap-8 mt-2 flex items-center">
+            <Link
+              target="_blank"
+              data-state="closed"
+              to="https://www.instagram.com/kidsboxperfume/"
+            >
+              <img src={whast} alt="whast" className="w-[60px]" />
+            </Link>
+            <Link
+              target="_blank"
+              data-state="closed"
+              to="https://wa.me/96560307755"
+            >
+              <img src={instgram} alt="instgram" className="w-[60px]" />
+            </Link>
+          </div>
+        </div>
+
+        <div className="hero_container flex flex-col lg:flex-row items-center justify-center mt-8">
+          <img src={img1} alt="img_1" className="w-[400px]" />
+          <img src={img3} alt="img_3" />
         </div>
         <div className="icons">
           <div className="features flex flex-col lg:flex-row items-center justify-center gap-9 my-6">
@@ -69,10 +93,15 @@ const Home = () => {
           </div>
         </div>
         <div className="info">
-          <p className="text-lg font-semibold leading-[50px] text-center mt-[70px]">
-            العلبة فيها عطرين كل عطر 50 مل العطر الاول اسمه منيره العطر الثاني
-            اسمه مناير واحد بريحة الورد واحد بريحة البودر يجون اثنينهم بعلبة
-            وحدة 12 دينار - توصيل مجاني
+          <p className="text-lg font-semibold leading-[25px] text-center mt-[70px]">
+            العلبة فيها عطرين كل عطر 50 مل <br />
+            العطر الاول اسمه منيره <br />
+            العطر الثاني اسمه مناير <br />
+            <br />
+            واحد بريحة الورد <br />
+            واحد بريحة البودر <br />
+            <br />
+            يجون اثنينهم بعلبة وحدة 12 دينار - توصيل مجاني
           </p>
           <img src={img2} alt="img_2" className="m-auto mt-[30px]" />
         </div>
@@ -96,8 +125,7 @@ const Home = () => {
               التالية:
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-10 lg:mt-11">
-            <img src={img3} alt="img_3" />
+          <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-10 lg:mt-11">
             <div className="mt-8">
               <span className="bg-[var(--main-color)] text-white rounded-full p-2 font-semibold">
                 الخطوة الأولى
@@ -137,7 +165,7 @@ const Home = () => {
               target="_blank"
               className="bg-[var(--main-color)] text-white rounded-full p-3 text-sm"
             >
-              اطلب الآن واتس
+              للطلب واتساب
             </Link>
           </div>
         </div>
@@ -217,3 +245,4 @@ const Home = () => {
 };
 
 export default Home;
+
