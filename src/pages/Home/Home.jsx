@@ -58,7 +58,7 @@ const Home = () => {
         </div>
 
         <div className="hero_container flex items-center justify-center mt-8">
-          <img src={img1} alt="img_1" className="w-[100x]" />
+          <img src={img1} alt="img_1" className="w-[140px]" />
           <img src={img3} alt="img_3" className="w-[200px]" />
         </div>
         <div className="icons">
