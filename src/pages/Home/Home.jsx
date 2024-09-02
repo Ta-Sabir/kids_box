@@ -43,14 +43,14 @@ const Home = () => {
             <Link
               target="_blank"
               data-state="closed"
-              to="https://www.instagram.com/kidsboxperfume/"
+              to="https://wa.me/96560307755"
             >
               <img src={whast} alt="whast" className="w-[60px]" />
             </Link>
             <Link
               target="_blank"
               data-state="closed"
-              to="https://wa.me/96560307755"
+              to="https://www.instagram.com/kidsboxperfume/"
             >
               <img src={instgram} alt="instgram" className="w-[60px]" />
             </Link>
@@ -59,7 +59,7 @@ const Home = () => {
 
         <div className="hero_container flex items-center justify-center gap-10 mt-8">
           <img src={img1} alt="img_1" className="w-[140px]" />
-          <img src={img3} alt="img_3" className="w-[130px]" />
+          <img src={img3} alt="img_3" className="w-[145px]" />
         </div>
         <div className="icons">
           <div className="features flex flex-col lg:flex-row items-center justify-center gap-9 my-6">
@@ -104,7 +104,7 @@ const Home = () => {
             واحد بريحة الورد <br />
             واحد بريحة البودر <br />
             <br />
-            يجون اثنينهم بعلبة وحدة 12 دينار - توصيل مجاني
+            عطرين بعلبة وحدة 12 دينار - توصيل مجاني
           </p>
           <img src={img2} alt="img_2" className="m-auto mt-[30px]" />
         </div>
@@ -185,9 +185,9 @@ const Home = () => {
               <p className="text-[var(--third-color)] text-[16px] font-medium leading-[40.45px]">
                 <span className="font-semibold">
                   {" "}
-                  العطر وايد حلو ،شريته لبناتي ريحته حلوه وثابته - الكويت
+                  العطر وايد حلو ،شريته لبناتي ريحته حلوه وثابته
                 </span>
-                - مريم الكويت
+                - مريم / الكويت
               </p>
 
               <figure>
@@ -201,7 +201,7 @@ const Home = () => {
             <div className="testimonials-box relative h-[220px] bg-[#fff] shadow-lg p-[24px] rounded-[16px] cursor-pointer">
               <p className="text-[var(--third-color)] text-[16px] font-medium leading-[40.45px]">
                 <span className="font-semibold">انصحكم فيه عطر جميل</span>- ملاك
-                الكويت
+                / الكويت
               </p>
 
               <figure>
@@ -217,7 +217,7 @@ const Home = () => {
                 <span className="font-semibold">
                   اجمل عطر صراحة للكبار والصغار راح اطلبه بس يخلص الي عندي 
                 </span>
-                - دانه الكويت
+                - دانه /  الكويت
               </p>
 
               <figure>
