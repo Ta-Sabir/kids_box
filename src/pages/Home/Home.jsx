@@ -39,8 +39,8 @@ const Home = () => {
             عطرين ب١٢ دينار - توصيل مجاني
             <br /> اطلبي الحين
           </p>
-                    <div className="relative z-10 gap-8 mt-2 flex items-center">
-            <Link
+          <div className="relative z-10 gap-8 mt-2 flex items-center">
+{/*             <Link
               target="_blank"
               data-state="closed"
               to="https://wa.me/96560307755"
@@ -53,7 +53,7 @@ const Home = () => {
               to="https://www.instagram.com/kidsboxperfume/"
             >
               <img src={instgram} alt="instgram" className="w-[60px]" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -163,13 +163,13 @@ const Home = () => {
             </p>
           </div>
           <div className="flex justify-center mt-8">
-            <Link
+{/*             <Link
               to={"https://wa.me/96560307755"}
               target="_blank"
               className="bg-[var(--main-color)] text-white rounded-full p-3 text-sm"
             >
               للطلب واتساب
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="testimonials mt-[85px] mb-[65px]">
